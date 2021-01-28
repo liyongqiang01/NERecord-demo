@@ -12,17 +12,18 @@
 
     获取SDK, 放到代码NERecord-SDK目录下, 通过cmake编译示例代码.
     
+    
+获取AppKey / token
 
-
-获取AppKey / token.
     阅读 快速入门->操作流程.
     
     
 运行
+
     创建普通音视频通话.
     录制SDK加入房间. 
 
-${DIR_OF_SAMPLE}/nerecord_sample \
+    ${DIR_OF_SAMPLE}/nerecord_sample \
         -c ${CHANNEL_NAME} \
         -u ${UID} \
         -k ${APP_KEY} \
