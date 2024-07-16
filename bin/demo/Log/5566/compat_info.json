@@ -1,0 +1,45 @@
+{
+    "6acf024e190215b685905444b6e57dd7": {
+        "default": {
+            "common": {
+                "audio.profile.music": {
+                    "audio.aec.noise_gate.enable": false,
+                    "audio.aec.noise_gate.enable.earphone": false,
+                    "audio.noise_gate_near": 200,
+                    "audio.noise_gate_near.earphone": 0
+                },
+                "audio.profile.voip": {
+                    "audio.ans.full.band.enable": 1
+                },
+                "qos.conf": {
+                    "enable_join3": 5,
+                    "enable_join_sig_merge": false,
+                    "enable_pre_ice": true,
+                    "enable_sig_multi_proto": true
+                },
+                "video.profile.live": {
+                    "engine.video.enable_enc_depends_on_config": false,
+                    "engine.video.enable_encoder_speed_control": true,
+                    "engine.video.enable_jnd": true,
+                    "engine.video.enable_watermark": 1,
+                    "engine.video.encoder.preset": 1,
+                    "engine.video.encoder.profile": 1,
+                    "engine.video.pre_process_type": 8
+                },
+                "video.profile.rtc": {
+                    "engine.video.enable_enc_depends_on_config": false,
+                    "engine.video.enable_encoder_speed_control": true,
+                    "engine.video.enable_jnd": true,
+                    "engine.video.enable_watermark": 1,
+                    "engine.video.encoder.preset": 1,
+                    "engine.video.encoder.profile": 1,
+                    "engine.video.pre_process_type": 8
+                }
+            }
+        },
+        "grey": false,
+        "refresh_time": 1721124179289,
+        "ttl": 1800,
+        "version": "6a49e8460ab520af3c3d6aabd7c2c8373ee91f93"
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "app_key": "6acf024e190215b685905444b6e57dd7",
+    "call": [
+        {
+            "backoffDelay": 0,
+            "domain": "roomserver.netease.im",
+            "ipv4": [],
+            "ipv6": [],
+            "maxResendTimes": 0,
+            "resendDelay": 0,
+            "type": 1
+        },
+        {
+            "backoffDelay": 0,
+            "domain": "roomserver.netease.im",
+            "ipv4": [
+                "59.111.248.65:8443"
+            ],
+            "ipv6": [],
+            "maxResendTimes": 0,
+            "resendDelay": 0,
+            "type": 3
+        },
+        {
+            "backoffDelay": 0,
+            "domain": "wecan-sdk.yunxinvcloud.com",
+            "ipv4": [],
+            "ipv6": [],
+            "maxResendTimes": 0,
+            "resendDelay": 0,
+            "type": 1
+        },
+        {
+            "backoffDelay": 0,
+            "domain": "call-qcloud.netease.im",
+            "ipv4": [],
+            "ipv6": [],
+            "maxResendTimes": 0,
+            "resendDelay": 0,
+            "type": 1
+        }
+    ],
+    "callIpv6": [],
+    "clientIp": "183.136.182.151",
+    "clientIsIpv6": false,
+    "config": {},
+    "filestore": [
+        {
+            "backoffDelay": 0,
+            "domain": "yunxin-storage.netease.im",
+            "ipv4": [
+                "183.136.182.37:8443"
+            ],
+            "ipv6": [],
+            "maxResendTimes": 0,
+            "resendDelay": 0,
+            "type": 3
+        },
+        {
+            "backoffDelay": 0,
+            "domain": "yunxin-storage.netease.im",
+            "ipv4": [],
+            "ipv6": [],
+            "maxResendTimes": 0,
+            "resendDelay": 0,
+            "type": 1
+        },
+        {
+            "backoffDelay": 0,
+            "domain": "yunxin-storage.netease.im",
+            "ipv4": [
+                "59.111.248.65:8443"
+            ],
+            "ipv6": [],
+            "maxResendTimes": 0,
+            "resendDelay": 0,
+            "type": 3
+        }
+    ],
+    "nertd": [],
+    "nrtc": [
+        {
+            "backoffDelay": 0,
+            "domain": "nrtc.netease.im",
+            "ipv4": [],
+            "ipv6": [],
+            "maxResendTimes": 0,
+            "resendDelay": 0,
+            "type": 1
+        },
+        {
+            "backoffDelay": 0,
+            "domain": "nrtc.netease.im",
+            "ipv4": [
+                "183.136.182.37:8443"
+            ],
+            "ipv6": [],
+            "maxResendTimes": 0,
+            "resendDelay": 0,
+            "type": 3
+        },
+        {
+            "backoffDelay": 0,
+            "domain": "wecan-gw.yunxinvcloud.com",
+            "ipv4": [],
+            "ipv6": [],
+            "maxResendTimes": 0,
+            "resendDelay": 0,
+            "type": 1
+        },
+        {
+            "backoffDelay": 0,
+            "domain": "nrtc-qcloud.netease.im",
+            "ipv4": [],
+            "ipv6": [],
+            "maxResendTimes": 0,
+            "resendDelay": 0,
+            "type": 1
+        }
+    ],
+    "nrtcIpv6": [],
+    "refresh_time": 1721124179264,
+    "switch": {
+        "racingLimit": 2
+    },
+    "ttl": 3,
+    "whiteboard": []
+}

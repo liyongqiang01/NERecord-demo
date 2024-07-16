@@ -1,0 +1,17 @@
+create libnerecordbase.a
+addlib libavcodec.a
+addlib libavdevice.a
+addlib libavfilter.a
+addlib libavformat.a
+addlib libavutil.a
+addlib libexpat.a
+addlib libfontconfig.a
+addlib libfreetype.a
+addlib libpng.a
+addlib libpostproc.a
+addlib libswresample.a
+addlib libswscale.a
+addlib libx264.a
+addlib libz.a
+save
+end

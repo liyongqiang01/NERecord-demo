@@ -1,0 +1,11 @@
+{
+	"audio_bps" : 48000,
+	"channel" : 1,
+	"fps" : 30,
+	"height" : 1080,
+	"sample_fmt" : "S16",
+	"sample_rate" : 48000,
+	"start" : "20240716100309314",
+	"video_bps" : 4725000,
+	"width" : 1920
+}

@@ -1,0 +1,5 @@
+{
+	core_num: 6,
+	auto_subscribe_audio: false,
+	auto_subscribe_video: false
+}

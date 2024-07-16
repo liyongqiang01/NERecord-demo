@@ -1,0 +1,71 @@
+[07-16 18:02:59.078][18142-18142][A][fdaa7620](initLogConfig): ----------------initLogConfig succ----------------
+[07-16 18:02:59.078][18142-18142][A][fdaa7620](parseParameters): setcore num:6
+[07-16 18:02:59.078][18142-18142][A][fdaa7620](parseParameters): parseParameters parameters_:{"audio_processing_aec_enable":false,"audio_processing_agc_enable":false,"audio_processing_ns_enable":false,"auto_subscribe_audio":false,"auto_subscribe_video":false,"core_num":6,"sdk.business.scenario.type":4,"sdk.enable.debug.environment":false,"sdk.enable.encrypt.log":false,"sdk.set.sku.type":1}
+
+[07-16 18:02:59.158][18142-18142][A][fdaa7620](joinChannel): joinChannel invoke
+[07-16 18:02:59.158][18142-18142][A][fdaa7620](_joinChannel): _joinChannel invoke
+[07-16 18:02:59.312][18142-18142][A][fdaa7620](setEncryption): enable:0 mode:0 key: observer:0
+[07-16 18:02:59.312][18142-18142][A][fdaa7620](setEncryption): kNERecordGMCryptoSM4ECB enable:0 mode:0 key:
+[07-16 18:02:59.312][18142-18142][A][fdaa7620](setEncryption): engine enableEncryption ret:0
+[07-16 18:02:59.312][18142-18142][A][fdaa7620](_joinChannel): setEncryption ret:0
+[07-16 18:02:59.312][18142-18142][A][fdaa7620](_joinChannel): joinChannel ret:0
+[07-16 18:02:59.452][18142-18150][A][fdaa7620](make_record_file_dir): NERecordEngineImpl::make_record_file_dir(): record_dir:/home/netease/桌面/support/https_tools/bin/demo/Log/20240716/5566-100259-452825119/
+[07-16 18:02:59.452][18142-18150][A][fdaa7620](_subscribeRemoteVideoStream): uid:1000 subscribe:1 stream_type:0
+[07-16 18:02:59.453][18142-18150][A][fdaa7620](_subscribeRemoteAudioStream):  uid:1000 subscribe:1
+[07-16 18:03:09.312][18142-18142][A][fdaa7620](setVideoMixingLayout):  m_sub_mode:1 layout type:0m_mixed_audio_profile:0
+[07-16 18:03:09.312][18142-18142][A][fdaa7620](setVideoMixingLayout): layout type:1
+[07-16 18:03:09.313][18142-18142][I][fdb4f630](ffmpeg_recorder.h:75 set_audio_params): ffmpeg_recorder_mp4_writer::set_audio_params(). invoke
+[07-16 18:03:09.313][18142-18523][I][fdb4f630](ffmpeg_recorder.h:77 operator()): ffmpeg_recorder_mp4_writer::set_audio_params(). execute
+[07-16 18:03:09.313][18142-18142][I][fdb4f630](ffmpeg_recorder.h:101 set_video_params): ffmpeg_recorder_mp4_writer::set_video_params(). invoke
+[07-16 18:03:09.313][18142-18523][I][fdb4f630](ffmpeg_recorder.h:103 operator()): ffmpeg_recorder_mp4_writer::set_video_params(). execute
+[07-16 18:03:09.313][18142-18142][I][fdb4f630](ffmpeg_recorder.h:50 set_video_mixing_layout): ffmpeg_recorder_mp4_writer::set_video_mixing_layout(). invoke
+[07-16 18:03:09.313][18142-18523][I][fdb4f630](ffmpeg_recorder.h:52 operator()): ffmpeg_recorder_mp4_writer::set_video_mixing_layout(). execute
+[07-16 18:03:09.313][18142-18142][I][fdb4f630](ffmpeg_recorder.h:59 set_video_watermak): ffmpeg_recorder_mp4_writer::set_video_watermak(). invoke
+[07-16 18:03:09.313][18142-18523][I][fdb4f630](ffmpeg_recorder.h:61 operator()): ffmpeg_recorder_mp4_writer::set_video_watermak(). execute
+[07-16 18:03:09.313][18142-18142][I][fdb4f630](ffmpeg_recorder.h:50 set_video_mixing_layout): ffmpeg_recorder_mp4_writer::set_video_mixing_layout(). invoke
+[07-16 18:03:09.314][18142-18523][I][fdb4f630](ffmpeg_recorder.h:52 operator()): ffmpeg_recorder_mp4_writer::set_video_mixing_layout(). execute
+[07-16 18:03:09.314][18142-18142][A][fdaa7620](apply_layout): NERecordEngineImpl::onMixingLayoutChanged(): regionCount:20
+[07-16 18:03:09.314][18142-18142][A][fdaa7620](startMixingRecord): m_mixed_audio_profile:0
+[07-16 18:03:09.314][18142-18142][I][fdb4f630](ffmpeg_recorder.cpp:67 open): ffmpeg_recorder::open invoke
+[07-16 18:03:09.314][18142-18523][I][fdb4f630](ffmpeg_recorder.cpp:69 operator()): ffmpeg_recorder::open(). execute
+[07-16 18:03:09.314][18142-18523][I][fdb4f630](ffmpeg_recorder.cpp:103 operator()): ffmpeg_recorder::open /home/netease/桌面/support/https_tools/bin/demo/Log/20240716/5566-100259-452825119/5566-mixed-video-20240716100309314.flv
+[07-16 18:03:09.314][18142-18524][I][13540](video_processor.cpp:436 operator()): layout region:0uid:1000x:0y:0size:101080
+[07-16 18:03:09.314][18142-18524][I][13540](video_processor.cpp:436 operator()): layout region:1uid:10001x:384y:0size:101080
+[07-16 18:03:09.314][18142-18524][I][13540](video_processor.cpp:436 operator()): layout region:2uid:2388x:768y:0size:101080
+[07-16 18:03:09.314][18142-18524][I][13540](video_processor.cpp:436 operator()): layout region:3uid:2657x:1152y:0size:101080
+[07-16 18:03:09.314][18142-18524][I][13540](video_processor.cpp:436 operator()): layout region:4uid:2811x:1536y:0size:101080
+[07-16 18:03:09.315][18142-18524][I][13540](video_processor.cpp:436 operator()): layout region:5uid:3337x:0y:270size:101080
+[07-16 18:03:09.315][18142-18524][I][13540](video_processor.cpp:436 operator()): layout region:6uid:3804x:384y:270size:101080
+[07-16 18:03:09.315][18142-18524][I][13540](video_processor.cpp:436 operator()): layout region:7uid:3946x:768y:270size:101080
+[07-16 18:03:09.315][18142-18524][I][13540](video_processor.cpp:436 operator()): layout region:8uid:4145x:1152y:270size:101080
+[07-16 18:03:09.315][18142-18524][I][13540](video_processor.cpp:436 operator()): layout region:9uid:4346x:1536y:270size:101080
+[07-16 18:03:09.315][18142-18524][I][13540](video_processor.cpp:436 operator()): layout region:10uid:6526x:0y:542size:101080
+[07-16 18:03:09.315][18142-18524][I][13540](video_processor.cpp:436 operator()): layout region:11uid:7810x:384y:542size:101080
+[07-16 18:03:09.315][18142-18524][I][13540](video_processor.cpp:436 operator()): layout region:12uid:8829x:768y:542size:101080
+[07-16 18:03:09.315][18142-18524][I][13540](video_processor.cpp:436 operator()): layout region:13uid:9323x:1152y:542size:101080
+[07-16 18:03:09.315][18142-18524][I][13540](video_processor.cpp:436 operator()): layout region:14uid:32657x:1536y:542size:101080
+[07-16 18:03:09.315][18142-18524][I][13540](video_processor.cpp:436 operator()): layout region:15uid:32658x:0y:812size:101080
+[07-16 18:03:09.315][18142-18524][I][13540](video_processor.cpp:436 operator()): layout region:16uid:101x:384y:812size:101080
+[07-16 18:03:09.315][18142-18524][I][13540](video_processor.cpp:436 operator()): layout region:17uid:102x:768y:812size:101080
+[07-16 18:03:09.315][18142-18524][I][13540](video_processor.cpp:436 operator()): layout region:18uid:9323x:1152y:812size:101080
+[07-16 18:03:09.315][18142-18524][I][13540](video_processor.cpp:436 operator()): layout region:19uid:2001x:1536y:812size:101080
+[07-16 18:03:09.322][18142-18142][A][fda8d190](registe_recorder): recorder:fdb4f630
+[07-16 18:03:09.322][18142-18142][I][fdaaae00](audio_mixed_frame_dispatcher.cpp:48 registe_recorder): nerecord::audio_mixed_frame_dispatcher::registe_recorder -fdb4f630invoKe
+[07-16 18:03:09.322][18142-18144][I][fda8d190](video_frame_dispatcher.cpp:126 operator()): nerecord::video_frame_dispatcher::registe_recorder execute record:fdb4f630
+[07-16 18:03:09.322][18142-18145][I][fdaaae00](audio_mixed_frame_dispatcher.cpp:50 operator()): nerecord::audio_mixed_frame_dispatcher::registe_recorder -fdb4f630execute
+[07-16 18:03:09.324][18142-18541][I][fdb4f630](ffmpeg_recorder.cpp:496 on_audio_frame_rcv_inner): ffmpeg_recorder::on_audio_frame_rcv_inner() - /home/netease/桌面/support/https_tools/bin/demo/Log/20240716/5566-100259-452825119/5566-mixed-video-20240716100309314.flvreinit resampler
+[07-16 18:03:09.334][18142-18526][I][9210](video_processor.cpp:27 process): video_processor::process: need reinit
+[07-16 18:03:09.364][18142-18528][I][b870](video_processor.cpp:27 process): video_processor::process: need reinit
+[07-16 18:03:09.394][18142-18529][I][1b250](video_processor.cpp:27 process): video_processor::process: need reinit
+[07-16 18:03:09.424][18142-18525][I][dc0](video_processor.cpp:27 process): video_processor::process: need reinit
+[07-16 18:03:09.464][18142-18530][I][fb20](video_processor.cpp:27 process): video_processor::process: need reinit
+[07-16 18:03:09.495][18142-18527][I][92c0](video_processor.cpp:27 process): video_processor::process: need reinit
+[07-16 18:03:09.496][18142-18541][E][fdb4f630](ffmpeg_recorder.cpp:769 encode_video_frame): ffmpeg_recorder::encode_video_frame - avcodec_receive_packet error-11Resource temporarily unavailable
+[07-16 18:03:09.526][18142-18541][E][fdb4f630](ffmpeg_recorder.cpp:769 encode_video_frame): ffmpeg_recorder::encode_video_frame - avcodec_receive_packet error-11Resource temporarily unavailable
+[07-16 18:03:09.566][18142-18541][E][fdb4f630](ffmpeg_recorder.cpp:769 encode_video_frame): ffmpeg_recorder::encode_video_frame - avcodec_receive_packet error-11Resource temporarily unavailable
+[07-16 18:03:09.627][18142-18541][E][fdb4f630](ffmpeg_recorder.cpp:769 encode_video_frame): ffmpeg_recorder::encode_video_frame - avcodec_receive_packet error-11Resource temporarily unavailable
+[07-16 18:03:09.667][18142-18541][E][fdb4f630](ffmpeg_recorder.cpp:769 encode_video_frame): ffmpeg_recorder::encode_video_frame - avcodec_receive_packet error-11Resource temporarily unavailable
+[07-16 18:03:09.696][18142-18541][E][fdb4f630](ffmpeg_recorder.cpp:769 encode_video_frame): ffmpeg_recorder::encode_video_frame - avcodec_receive_packet error-11Resource temporarily unavailable
+[07-16 18:03:09.699][18142-18541][E][fdb4f630](ffmpeg_recorder.cpp:769 encode_video_frame): ffmpeg_recorder::encode_video_frame - avcodec_receive_packet error-11Resource temporarily unavailable
+[07-16 18:03:09.703][18142-18541][E][fdb4f630](ffmpeg_recorder.cpp:769 encode_video_frame): ffmpeg_recorder::encode_video_frame - avcodec_receive_packet error-11Resource temporarily unavailable
+[07-16 18:03:09.706][18142-18541][E][fdb4f630](ffmpeg_recorder.cpp:769 encode_video_frame): ffmpeg_recorder::encode_video_frame - avcodec_receive_packet error-11Resource temporarily unavailable
